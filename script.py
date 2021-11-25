@@ -61,7 +61,7 @@ def step(worlds):
     shutil.copytree(folder_name, os.path.join(out_dir, os.path.basename(folder_name)))
 
 def main():
-    while time.sleep(60):
+    while time.sleep(900):
         if not is_mc_running():
             continue
 
